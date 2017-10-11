@@ -1,6 +1,6 @@
 import akka.stream._
 import akka.stream.scaladsl._
-import akka.{ NotUsed, Done }
+import akka.{NotUsed, Done}
 import akka.actor.ActorSystem
 import akka.util.ByteString
 import scala.concurrent._
@@ -16,6 +16,11 @@ object FileSink extends App {
 
   val source: Source[Int, NotUsed] = Source(1 to 100)
   val factorials = source.scan(BigInt(1))((acc, next) => acc * next)
+
+
+  val testSink: Flow[String, String, NotUsed] =
+    Flow[String]
+      //.map(s => ByteString(s))
 
   /*
    * This demonstrates a reusable Sink that we can use to write
@@ -33,6 +38,6 @@ object FileSink extends App {
 
   // Terminates ActorSystem when processing has completed.
   implicit val ec = system.dispatcher
-  result.onComplete(_ => system.terminate())  // callback terminates system
+  result.onComplete(_ => system.terminate()) // callback terminates system
 
 }
