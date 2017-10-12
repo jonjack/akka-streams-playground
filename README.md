@@ -1,6 +1,8 @@
 
 # Learning Akka Streams
 
+[Streams Quickstart Guide](https://doc.akka.io/docs/akka/current/scala/stream/stream-quickstart.html)
+
 
 ## Core Concepts
 
@@ -92,15 +94,33 @@ When we run (_materialize_) a Graph, each processing stage (whether it be a _Sou
 
 ---
 
-## Source
+## The 3 components of a Stream
 
-Here is the signature of [Source](https://github.com/akka/akka/blob/master/akka-stream/src/main/scala/akka/stream/scaladsl/Source.scala#L32).
+Streams always start flowing from a `Source[Out,M1]` then can continue through `Flow[In,Out,M2]` elements or more advanced graph elements to finally be consumed by a `Sink[In,M3]`
+
+
+### Source
+
+Built-in [Sources](https://doc.akka.io/docs/akka/current/scala/stream/stages-overview.html#source-stages).
+
+An instance of the type `Source[Out]` produces a potentially unbounded stream of elements of type `Out`.
+
+Here is the actual signature of [Source](https://github.com/akka/akka/blob/master/akka-stream/src/main/scala/akka/stream/scaladsl/Source.scala#L32).
 
 ```scala
 final class Source[+Out, +Mat]
 ```
 
-The Source type is parameterized with two types: the first one (`+Out`) is the type of element that this source emits and the second one (`+Mat`) may signal that running the source produces some auxiliary value (e.g. a network source may provide information about the port it is bound to). Where no auxiliary information is produced, the type `akka.NotUsed` is used.
+Type parameters:-     
+`+Out` - the type of element it produces (_emits_, _outputs_).      
+`+Mat` - the type of the Source's _materialized value_ (auxiliary data).
+
+> _**auxiliary**_ definition.
+> Providing supplementary or additional help.
+
+The _**materialized value**_ (the type of which is specified using the `Mat` type parameter) is an additional (_auxiliary) element that the Source might produce, in addition to the `Out` element that it emits. This value might be useful (depending on the scenario) for further computation, an example being a network source may provide information about the port it is bound to. 
+
+Where no auxiliary information is produced, the type `akka.NotUsed` is used.
 
 The following source is a simple range of integers. It emits integers `Int` but produces no auxiliary information, hence the second type argument is `NotUsed`
 
@@ -108,7 +128,9 @@ The following source is a simple range of integers. It emits integers `Int` but 
 val source: Source[Int, NotUsed] = Source(1 to 100)
 ```
 
-## Flow
+### Flow
+
+Built-in [Flows](https://doc.akka.io/docs/akka/current/scala/stream/stages-overview.html#flow-stages).
 
 Here is the signature of [Flow](https://github.com/akka/akka/blob/master/akka-stream/src/main/scala/akka/stream/scaladsl/Flow.scala#L27).
 
@@ -116,8 +138,15 @@ Here is the signature of [Flow](https://github.com/akka/akka/blob/master/akka-st
 final class Flow[-In, +Out, +Mat]
 ```
 
+Type parameters:-    
+ `-In` - the type of element it consumes.      
+ `+Out` - the type of element it produces (_emits_, _outputs_).     
+ `+Mat` - the type of the Flow's _materialized_ value.    
 
-## Sink
+
+### Sink
+
+Built-in [Sinks](https://doc.akka.io/docs/akka/current/scala/stream/stages-overview.html#sink-stages).
 
 Here is the signature of [Sink](https://github.com/akka/akka/blob/master/akka-stream/src/main/scala/akka/stream/scaladsl/Sink.scala#L26).
 
@@ -125,9 +154,14 @@ Here is the signature of [Sink](https://github.com/akka/akka/blob/master/akka-st
 final class Sink[-In, +Mat]
 ```
 
-The first type parameter (a contravariant `-In`) is the type that the Sing consumes. 
+Type parameters:-     
+`-In` - the type that the Sink accepts as input (_consumes_).       
+`+Mat` - the type of the Sink's _materialized_ value.
 
+Some examples of Sinks that produce materialized values on completion:-
 
+- _ForeachSinks_ produce a `Future[Done]` that completes when the stream completes. 
+- _FoldSinks_, which fold some number of elements of type `A` into an initial value of type `B` using a function `(A, B) => B`, produces a `Future[B]` that completes when the stream completes.
 
 
 ---
@@ -135,49 +169,70 @@ The first type parameter (a contravariant `-In`) is the type that the Sing consu
 ## Understanding Materialized Values
 
 
+See [Materialized values](https://doc.akka.io/docs/akka/current/scala/stream/stream-quickstart.html#materialized-values)
 
-To try and understand how materialized values work we will use a simple example below that has a simple Source of a few integers. A flow which just transforms the data by filtering out the odd numbers in the range. A Sink which does not produce anything, it just has a side effect of printing out each element it consumes.
+Materialized values (those `Mat` types) may be produced by one or more of the stages in a stream. 
 
-```scala
-import akka.{Done, NotUsed}
-import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
-import akka.stream.scaladsl._
-
-import scala.concurrent._
-
-object SimpleGraph extends App {
-
-  implicit val system = ActorSystem("SimpleGraph")
-  implicit val materializer = ActorMaterializer()
-
-  val source: Source[Int, NotUsed] = Source(1 to 10)
-  val flow: Source[Int, NotUsed] = source.filter(i => i % 2 == 0) // filter out odd numbers
-
-  val sink: Sink[Int, Future[Done]] = Sink.foreach(i => print(i))
-  
-  val graph: RunnableGraph[NotUsed] = flow.to(sink)
-  val materialize: NotUsed = graph.run()
-
-}
-
-// this just prints: 246810
-```
-
-How do the materialized values work in the above and then we need to ue different versions to get different results of materialized values.
-
-
-
-## Source
-
-Here is simple source of integers in the range 1->100.
+Streams will flow like this:-
 
 ```scala
-val source: Source[Int, NotUsed] = Source(1 to 100)
+Source[Out] ~~~> Flow[In,Out] ~~~> Sink[In]
 ```
 
-The first type parameter `Int` is the type of the element that this type emits. The second type parameter is used to signal that the source produces some auxiliary information (eg. a network source may provide the port that it is bound to). Where the source provides no auxiliary information, the type `akka.NotUsed` is used (as in this case).
+Consider this example. Imagine a stream which starts with a `Source[Int]` that reads from a File and emits a stream of Integers representing customer IDs in a system. This stream of Int's then flows into a transformation stage `Flow[Int,String]` which calls some API to fetch each customer's email address in the system and then emits a stream of Strings. The stream of Strings (email addresses) finally flows into a Sink which simply aggregates them into a `List[String]`. It is this List that we are interested in, so how do we get it?
 
+Here is the example flow in code.
+
+```scala
+val source: Source[Int, NotUsed] = Source(1 to 10)
+val flow: Flow[Int, String, NotUsed] = Flow[Int].map(i => "Number " + i.toString())
+val sink: Sink[String, Future[Seq[String]]] = Sink.seq[String]
+
+val graph: RunnableGraph[Future[Seq[String]]] = source.via(flow).toMat(sink)(Keep.right)
+val result: Future[Seq[String]] = graph.run()
+
+result.onComplete( seq => // do something useful with that Seq of emails )
+```
+
+Notice the definition of the Sink. It takes a `String` in, and it _materializes_ (produces) a `Future[Seq[String]]`
+
+```scala
+Sink[In, Mat]                         // the trait
+Sink[String, Future[Seq[String]]]     // our concrete instance
+```
+
+It is the `Seq[String]` that we want to do something with once the computation has ended, hence we provide a callback to the Future with.
+
+```scala
+result.onComplete( seq => // do something useful with that Seq of emails )
+```
+
+This should demonstrate why Materialized values are important. In the above example, access to the materialized value was actually critical to getting our job done since we needed to get hold of that `Seq[String]` when it was complete, or else have sent an alert or something if it has failed. Sometimes we are not actually interested in the result because we will probably have sent it elsewhere but we will still generally always want to know if it succeeded or not and report on what happened ie. get some metrics about how much data was processed etc.
+
+
+Read the following for more insight:-
+
+[Combining materialized values](https://doc.akka.io/docs/akka/snapshot/scala/stream/stream-flows-and-basics.html#combining-materialized-values)    
+[Reusable Pieces](https://doc.akka.io/docs/akka/snapshot/scala/stream/stream-quickstart.html#reusable-pieces)     
+[Defining and running streams](https://doc.akka.io/docs/akka/current/scala/stream/stream-flows-and-basics.html#defining-and-running-streams)    
+
+
+#### Keep.left, Keep.both, Keep.right
+
+Every stream processing stage can produce a materialized value, and it is the responsibility of the user to combine them to a new type.
+
+In th above example, if we do not use the convenience function `(Keep.right)` to indicate that we are only interested in the materialized value of the `Sink` we get the following type for the graph which is produced via a combination of all the materialized values being combined.
+
+```scala
+val graph: ((NotUsed, Future[Seq[String]]) => Nothing) => RunnableGraph[Nothing] = source.via(flow).toMat(sink)
+```
+
+There are convenience functions (`Keep.left`, `Keep.both`, `Keep.right`) and methods which allow us to produce the materialized types we are interested in. I think the default behaviour is `Keep.left`.
+
+See [Combining materialized values](https://doc.akka.io/docs/akka/snapshot/scala/stream/stream-flows-and-basics.html#combining-materialized-values).
+
+
+---
 
 ## Throttling Processing Speed
 

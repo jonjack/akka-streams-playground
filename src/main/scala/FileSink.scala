@@ -1,10 +1,12 @@
+import java.nio.file.Paths
+
+import akka.NotUsed
+import akka.actor.ActorSystem
 import akka.stream._
 import akka.stream.scaladsl._
-import akka.{NotUsed, Done}
-import akka.actor.ActorSystem
 import akka.util.ByteString
+
 import scala.concurrent._
-import java.nio.file.Paths
 
 /*
  * From https://doc.akka.io/docs/akka/2.5.3/scala/stream/stream-quickstart.html#stream-quickstart
@@ -17,10 +19,14 @@ object FileSink extends App {
   val source: Source[Int, NotUsed] = Source(1 to 100)
   val factorials = source.scan(BigInt(1))((acc, next) => acc * next)
 
+  val flow: Source[ByteString, NotUsed] =
+    source.map(s => ByteString(s))
 
-  val testSink: Flow[String, String, NotUsed] =
-    Flow[String]
-      //.map(s => ByteString(s))
+  val flow1: Flow[String, ByteString, NotUsed] =
+    Flow[String].map(s => ByteString(s))
+
+  val flow2: Flow[Int, String, NotUsed] =
+    Flow[Int].map(s => s.toString)
 
   /*
    * This demonstrates a reusable Sink that we can use to write

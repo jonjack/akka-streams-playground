@@ -1,4 +1,3 @@
-import SimpleGraph.{sum, system}
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl._

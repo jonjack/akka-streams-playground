@@ -1,7 +1,7 @@
 import akka.Done
 import akka.actor.ActorSystem
-import akka.stream.{ActorMaterializer, ThrottleMode}
 import akka.stream.scaladsl._
+import akka.stream.{ActorMaterializer, ThrottleMode}
 
 import scala.concurrent._
 import scala.concurrent.duration._

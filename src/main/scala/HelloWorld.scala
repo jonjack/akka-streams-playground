@@ -1,7 +1,6 @@
 import akka.NotUsed
 import akka.actor.ActorSystem
-import akka.stream.Materializer
-import akka.stream.ActorMaterializer
+import akka.stream.{ActorMaterializer, Materializer}
 import akka.stream.scaladsl._
 
 object HelloWorld extends App {

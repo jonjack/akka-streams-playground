@@ -1,10 +1,12 @@
+import java.nio.file.Paths
+
+import akka.NotUsed
+import akka.actor.ActorSystem
 import akka.stream._
 import akka.stream.scaladsl._
-import akka.{ NotUsed, Done }
-import akka.actor.ActorSystem
 import akka.util.ByteString
+
 import scala.concurrent._
-import java.nio.file.Paths
 
 /*
  * From https://doc.akka.io/docs/akka/2.5.3/scala/stream/stream-quickstart.html#stream-quickstart
