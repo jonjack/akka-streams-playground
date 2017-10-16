@@ -1,3 +1,5 @@
+package streams
+
 import java.nio.file.Paths
 
 import akka.NotUsed

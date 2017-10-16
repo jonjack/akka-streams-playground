@@ -1,4 +1,5 @@
-import FileSink.result
+package streams
+
 import akka.NotUsed
 import akka.actor.ActorSystem
 import akka.stream._
@@ -19,7 +20,7 @@ object SimpleAggregator extends App {
   val flow: Flow[Int, String, NotUsed] = Flow[Int].map(i => "Number " + i.toString())
   val sink: Sink[String, Future[Seq[String]]] = Sink.seq[String]
 
-  val graph: ((NotUsed, Future[Seq[String]]) => Nothing) => RunnableGraph[Nothing] = source.via(flow).toMat(sink)
+  val graph: RunnableGraph[Future[Seq[String]]] = source.via(flow).toMat(sink)(Keep.right)
 
   // Instead of using above verbose `sink` definition we could just use Sink.seq
   // val graph: RunnableGraph[Future[Seq[String]]] = source.via(flow).toMat(Sink.seq)(Keep.right)
