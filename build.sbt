@@ -5,7 +5,7 @@ version := "0.1-SNAPSHOT"
 scalaVersion := "2.12.3"
 
 libraryDependencies ++= {
-  lazy val akkaVersion        = "2.5.4"
+  lazy val akkaVersion        = "2.5.6"
   lazy val akkaHttpVersion    = "10.0.10"
   lazy val scalaTestVersion   = "3.0.4"
   Seq(

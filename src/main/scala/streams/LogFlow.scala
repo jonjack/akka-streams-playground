@@ -3,6 +3,7 @@ package streams
 import akka.{Done, NotUsed}
 import akka.actor.ActorSystem
 import akka.event.Logging
+import akka.event.LoggingAdapter
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Source
 import com.typesafe.config.ConfigFactory
@@ -11,19 +12,22 @@ import scala.concurrent.Future
 
 object LogFlow extends App {
 
-  implicit val system = ActorSystem("LogFlow", ConfigFactory.load.getConfig("akka"))
+  implicit val system = ActorSystem("LogFlow")
   implicit val materializer = ActorMaterializer()
 
-  val log = Logging.getLogger(system, this)
+  val log: LoggingAdapter = Logging.getLogger(system, this)
+  log.debug("LOGGED BY LOG")
+  log.info("LOGGED BY LOG")
 
-  log.debug("TESTD")
-  log.info("TESTI")
+  val logger: LoggingAdapter = Logging.getLogger(system, ConfigFactory.load())
+  logger.info("LOGGED BY LOGGER")
+  logger.debug("LOGGED BY LOGGER")
 
-  val source: Source[Int, NotUsed] = Source(1 to 100)
+  val source: Source[Int, NotUsed] = Source(1 to 5)
 
   val done: Future[Done] =
     source
-      .log("Before Run")
+      .log("hi")
       .runForeach(i => println(i))(materializer)
 
   // When you start up the ActorSystem it is never terminated until instructed.
