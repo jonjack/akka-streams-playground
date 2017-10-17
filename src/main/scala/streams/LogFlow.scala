@@ -5,11 +5,14 @@ import akka.actor.ActorSystem
 import akka.event.Logging
 import akka.event.LoggingAdapter
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.Source
+import akka.stream.scaladsl.{Flow, Sink, Source}
 import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.Future
 
+/**
+  * An example of logging within a flow.
+  */
 object LogFlow extends App {
 
   implicit val system = ActorSystem("LogFlow")
@@ -19,22 +22,30 @@ object LogFlow extends App {
   log.debug("LOGGED BY LOG")
   log.info("LOGGED BY LOG")
 
-  val logger: LoggingAdapter = Logging.getLogger(system, ConfigFactory.load())
-  logger.info("LOGGED BY LOGGER")
-  logger.debug("LOGGED BY LOGGER")
+//  val logger: LoggingAdapter = Logging.getLogger(system, ConfigFactory.load())
+//  logger.info("LOGGED BY LOGGER")
+//  logger.debug("LOGGED BY LOGGER")
 
-  val source: Source[Int, NotUsed] = Source(1 to 5)
+  val source: Source[Int, NotUsed] = Source(1 to 10)
 
-  val done: Future[Done] =
-    source
-      .log("hi")
-      .runForeach(i => println(i))(materializer)
+  // This flow simply logs the value that flows through it
+  // It takes an int, logs it, and then emit the Int downstream unchanged
+  val logFlow: Flow[Int, Int, NotUsed] =
+    Flow[Int]
+      .log("logFlow")
+      .map(i => i)
+
+  // A Sink which does nothing since we are just demo-ing the flow logging
+  // We need one to create the graph
+  val ignorantSink = Sink.ignore
+
+  val graph: Future[Done] = source.via(logFlow).runWith(ignorantSink)
 
   // When you start up the ActorSystem it is never terminated until instructed.
-  // Luckily runForeach returns a Future[Done] which resolves when the stream finishes.
+  // runForeach returns a Future[Done] which resolves when the stream finishes.
   // So we can provide a callback to terminate the ActorSystem once the stream has
-  // finished being processed.
+  // been completed.
   implicit val ec = system.dispatcher
-  done.onComplete(_ => system.terminate())
+  graph.onComplete(_ => system.terminate())
 
 }
