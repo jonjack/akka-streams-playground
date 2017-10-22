@@ -1,15 +1,11 @@
 package http.client
 
-import akka.{Done, NotUsed}
 import akka.actor.ActorSystem
-import akka.actor.Status.{Failure, Success}
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.model._
 import akka.http.scaladsl.model.HttpMethods._
+import akka.http.scaladsl.model._
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.{Flow, Keep, RunnableGraph, Sink, Source}
-import akka.util.ByteString
-import http.SimpleBitFuture.{resp, system}
+import akka.stream.scaladsl.Source
 
 import scala.concurrent.Future
 

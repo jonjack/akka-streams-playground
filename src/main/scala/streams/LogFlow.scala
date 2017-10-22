@@ -1,12 +1,10 @@
 package streams
 
-import akka.{Done, NotUsed}
 import akka.actor.ActorSystem
-import akka.event.Logging
-import akka.event.LoggingAdapter
+import akka.event.{Logging, LoggingAdapter}
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Flow, Sink, Source}
-import com.typesafe.config.ConfigFactory
+import akka.{Done, NotUsed}
 
 import scala.concurrent.Future
 

@@ -6,9 +6,7 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Flow
-import akka.util.ByteString
 
-import scala.concurrent.Future
 import scala.util.Try
 
 object SimpleFlow extends App {

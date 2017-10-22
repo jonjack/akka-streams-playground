@@ -1,14 +1,12 @@
 package http.client
 
-import akka.{Done, NotUsed}
+import akka.NotUsed
 import akka.actor.ActorSystem
-import akka.actor.Status.{Failure, Success}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.{HttpRequest, HttpResponse}
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.{Flow, Keep, RunnableGraph, Sink, Source}
+import akka.stream.scaladsl.{Flow, Source}
 
-import scala.concurrent.Future
 import scala.util.Try
 
 object SimpleRequestLevelFlow extends App {
