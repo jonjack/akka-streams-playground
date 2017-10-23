@@ -21,7 +21,11 @@ libraryDependencies ++= {
   )
 }
 
+resolvers += "SBT Releases" at "https://dl.bintray.com/sbt/sbt-plugin-releases/"
 
+enablePlugins(JavaAppPackaging)
+
+mainClass in Compile := Some("streams.SimpleGraph")
 
 //"net.databinder.dispatch" %% "dispatch-core" % "0.13.2",
 //"net.databinder.dispatch" %% "dispatch-json4s-native" % "0.13.2"
