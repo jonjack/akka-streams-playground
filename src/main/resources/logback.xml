@@ -5,16 +5,18 @@
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <target>System.out</target>
         <encoder>
-            <pattern>%X{akkaTimestamp} %-5level[%thread] %logger{0} - %msg%n - %X{akkaTimestamp}</pattern>
+            <!--<pattern>%X{akkaTimestamp} %-5level[%thread] %logger{0} - %msg%n</pattern>-->
+            <pattern>%X{akkaTimestamp} %logger{0} - %msg%n</pattern>
         </encoder>
     </appender>
 
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>log/app.log</file>
+        <file>logs/app.log</file>
         <append>true</append>
         <encoder>
-            <pattern>%date{yyyy-MM-dd} %X{akkaTimestamp} %-5level[%thread] %logger{1} - %msg%n</pattern>
+            <pattern>%date{yyyy-MM-dd} %X{akkaTimestamp} %-5level %logger{1} - %msg%n</pattern>
+            <!--<pattern>%date{yyyy-MM-dd} %X{akkaTimestamp} %-5level[%thread] %logger{1} - %msg%n</pattern>-->
             <!--<pattern>%d{HH:mm:ss.SSS} | %-5level | %thread | %X{akkaSource} | %logger{1} | %m%n%rEx</pattern>-->
         </encoder>
     </appender>

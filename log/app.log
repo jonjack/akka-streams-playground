@@ -203,3 +203,133 @@
 2017-10-21 19:33:11.367UTC DEBUG[default-akka.actor.default-dispatcher-2] c.t.s.s.DefaultHostnameVerifier - verify: returning true
 2017-10-21 19:33:11.536UTC DEBUG[default-akka.actor.default-dispatcher-3] a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-0/flow-0-0-ignoreSink#1029797633]] terminated abruptly
 2017-10-21 19:33:11.586UTC DEBUG[default-akka.actor.default-dispatcher-6] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 08:40:53.893UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 08:40:53.894UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 08:40:54.057UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 08:49:11.826UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 08:49:11.827UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 08:49:11.994UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 08:49:23.226UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 08:49:23.227UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 08:49:23.396UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:08:29.316UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:08:29.317UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:08:29.493UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:16:48.307UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:16:48.308UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:16:48.481UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:18:36.334UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:18:36.335UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:18:36.498UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:19:38.731UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:19:38.732UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 09:19:38.918UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:19:44.981UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:19:44.982UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:19:45.157UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:20:08.887UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:20:08.888UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:20:09.064UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:20:40.053UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:20:40.055UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:20:40.231UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:21:03.716UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:21:03.718UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 09:21:03.891UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:23:25.794UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:23:25.796UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 09:23:25.977UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:24:04.678UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:24:04.680UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:24:04.856UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:58:03.577UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:58:03.578UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 09:58:03.752UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 09:59:33.521UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 09:59:33.522UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 09:59:33.697UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 10:00:46.376UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 10:00:46.377UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 10:00:46.553UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 10:00:58.496UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 10:00:58.497UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 10:00:58.670UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 11:05:46.044UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 11:05:46.045UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 11:05:51.976UTC INFO [SimpleThrottle-akka.actor.default-dispatcher-4] a.a.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+2017-10-24 11:05:51.984UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.a.CoordinatedShutdown - Performing phase [before-service-unbind] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [service-unbind] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [service-requests-done] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [service-stop] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [before-cluster-shutdown] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [cluster-leave] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [cluster-exiting] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [cluster-exiting-done] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [cluster-shutdown] with [0] tasks
+2017-10-24 11:05:51.990UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [before-actor-system-terminate] with [0] tasks
+2017-10-24 11:05:51.994UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.a.CoordinatedShutdown - Performing phase [actor-system-terminate] with [1] tasks: [terminate-system]
+2017-10-24 11:05:52.012UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-5] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 11:16:13.462UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 11:16:13.463UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 11:16:13.633UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 11:18:14.741UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 11:18:14.742UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 11:18:14.928UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 11:18:45.444UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 11:18:45.445UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 11:18:45.611UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 11:19:33.585UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 11:19:33.586UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 11:19:33.770UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 13:31:53.073UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 13:31:53.074UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 13:31:57.253UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 13:32:04.860UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 13:32:04.861UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 13:32:09.047UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-2] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [SimpleThrottle-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 15:32:53.940UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 15:32:53.941UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 15:32:58.124UTC DEBUG[SimpleThrottle-akka.actor.default-dispatcher-4] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [LogFlow-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 21:52:03.009UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 21:52:03.010UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 21:52:03.053UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:52:03.054UTC INFO [LogFlow-akka.actor.default-dispatcher-3] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:52:03.142UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 1
+2017-10-24 21:52:03.142UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 2
+2017-10-24 21:52:03.142UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 3
+2017-10-24 21:52:03.142UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 4
+2017-10-24 21:52:03.142UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 5
+2017-10-24 21:52:03.143UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 6
+2017-10-24 21:52:03.143UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 7
+2017-10-24 21:52:03.143UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 8
+2017-10-24 21:52:03.143UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 9
+2017-10-24 21:52:03.143UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 10
+2017-10-24 21:52:03.144UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Upstream finished.
+2017-10-24 21:52:03.159UTC DEBUG[LogFlow-akka.actor.default-dispatcher-5] a.e.EventStream - shutting down: StandardOutLogger started

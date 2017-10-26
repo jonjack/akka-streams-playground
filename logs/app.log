@@ -1,0 +1,68 @@
+2017-10-24  INFO [LogFlow-akka.actor.default-dispatcher-3] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 21:53:59.792UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 21:53:59.793UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.e.EventStream - Default Loggers started
+2017-10-24 21:53:59.834UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:53:59.836UTC INFO [LogFlow-akka.actor.default-dispatcher-3] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 1
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 2
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 3
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 4
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 5
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 6
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 7
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 8
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 9
+2017-10-24 21:53:59.926UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Element: 10
+2017-10-24 21:53:59.927UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Upstream finished.
+2017-10-24 21:53:59.943UTC DEBUG[LogFlow-akka.actor.default-dispatcher-5] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO [LogFlow-akka.actor.default-dispatcher-2] a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 21:55:58.233UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 21:55:58.234UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.e.EventStream - Default Loggers started
+2017-10-24 21:55:58.293UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:55:58.295UTC INFO [LogFlow-akka.actor.default-dispatcher-2] s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 1
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 2
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 3
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 4
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 5
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 6
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 7
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 8
+2017-10-24 21:55:58.410UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 9
+2017-10-24 21:55:58.411UTC DEBUG[LogFlow-akka.actor.default-dispatcher-2] a.s.Materializer - [logFlow] Element: 10
+2017-10-24 21:55:58.412UTC DEBUG[LogFlow-akka.actor.default-dispatcher-3] a.s.Materializer - [logFlow] Upstream finished.
+2017-10-24 21:55:58.439UTC DEBUG[LogFlow-akka.actor.default-dispatcher-5] a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 21:57:56.461UTC a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 21:57:56.462UTC a.e.EventStream - Default Loggers started
+2017-10-24 21:57:56.504UTC s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:57:56.506UTC s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:57:56.596UTC a.s.Materializer - [logFlow] Element: 1
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 2
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 3
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 4
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 5
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 6
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 7
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 8
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 9
+2017-10-24 21:57:56.597UTC a.s.Materializer - [logFlow] Element: 10
+2017-10-24 21:57:56.598UTC a.s.Materializer - [logFlow] Upstream finished.
+2017-10-24 21:57:56.613UTC a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-24  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-24 21:59:24.845UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-24 21:59:24.846UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-24 21:59:24.887UTC DEBUG s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:59:24.888UTC INFO  s.LogFlow$ - LOGGED BY LOG
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 1
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 2
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 3
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 4
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 5
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 6
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 7
+2017-10-24 21:59:24.986UTC DEBUG a.s.Materializer - [logFlow] Element: 8
+2017-10-24 21:59:24.987UTC DEBUG a.s.Materializer - [logFlow] Element: 9
+2017-10-24 21:59:24.987UTC DEBUG a.s.Materializer - [logFlow] Element: 10
+2017-10-24 21:59:24.988UTC DEBUG a.s.Materializer - [logFlow] Upstream finished.
+2017-10-24 21:59:25.004UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started

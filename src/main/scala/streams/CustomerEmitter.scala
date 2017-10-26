@@ -1,0 +1,5 @@
+package streams
+
+object CustomerEmitter {
+
+}
