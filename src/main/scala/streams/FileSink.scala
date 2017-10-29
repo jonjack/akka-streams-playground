@@ -42,7 +42,7 @@ object FileSink extends App {
   val result: Future[IOResult] =
     factorials
       .map(_.toString)
-      .runWith(lineSink("factorial2.txt"))
+      .runWith(lineSink("factorial3.txt"))
 
   // Terminates ActorSystem when processing has completed.
   implicit val ec = system.dispatcher

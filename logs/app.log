@@ -66,3 +66,1047 @@
 2017-10-24 21:59:24.987UTC DEBUG a.s.Materializer - [logFlow] Element: 10
 2017-10-24 21:59:24.988UTC DEBUG a.s.Materializer - [logFlow] Upstream finished.
 2017-10-24 21:59:25.004UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:08:49.646UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:08:49.647UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:08:49.718UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:08:49.722UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:08:50.175UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:08:50.341UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:08:50.341UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:08:50.341UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:08:50.345UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:08:50.352UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:08:50.379UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:08:50.384UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:08:50.384UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:08:50.387UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:08:50.389UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:08:50.389UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:08:50.392UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:08:50.408UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:08:50.408UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:08:50.408UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:08:50.431UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-1290015626]
+2017-10-29 19:08:50.437UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-252294572]
+2017-10-29 19:08:50.438UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-2028438682]
+2017-10-29 19:08:50.488UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 19:08:50.488UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 19:08:50.488UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 19:08:50.509UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:08:50.509UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:08:50.509UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 79Kt5ALY6sDAOpNdL5w1bsLUOufPM/8WyQ+aTaCxbCk=
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = oTFbeyFBSrdirub1PwEI3fw0kuzPIImqbY3n+gkqEFI=
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 3JFdZ0TEG24izGvEw81uj6dwKN1FyyG0U9J5VKaGdSo=
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:08:50.691UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:08:51.241UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50682->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:08:51.676UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50681->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:08:52.586UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50680->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:08:52.600UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50682->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:08:52.600UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50680->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:08:52.600UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50681->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:08:52.600UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:08:52.605UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.608UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.609UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.610UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.610UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.611UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2040932171]] terminated abruptly
+2017-10-29 19:08:52.619UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:13:21.872UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:13:21.873UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:13:21.940UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:13:21.942UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:13:22.311UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:13:22.476UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:13:22.476UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:13:22.477UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:13:22.480UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:13:22.487UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:13:22.518UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:13:22.525UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:13:22.525UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:13:22.531UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:13:22.531UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:13:22.531UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:13:22.535UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:13:22.551UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:13:22.551UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:13:22.551UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:13:22.574UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#152638089]
+2017-10-29 19:13:22.582UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-1050713836]
+2017-10-29 19:13:22.582UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#1432847470]
+2017-10-29 19:13:22.976UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.174.181:443]
+2017-10-29 19:13:22.976UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.174.181:443]
+2017-10-29 19:13:22.976UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.174.181:443]
+2017-10-29 19:13:22.995UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:13:22.995UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:13:22.996UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:13:23.228UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = cTSlIVJdUwk05rKT9Kt94tulc5m1thFpb16vQnLFkuI=
+2017-10-29 19:13:23.228UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 4nolW0w2Hql438jGhjvR4c7eA/8bhh43Fwr8Bgz1Q4E=
+2017-10-29 19:13:23.228UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = uUoUTpvYtEkNcGv62utV1QVfQ5hnyWrT4xBW5k79gs8=
+2017-10-29 19:13:23.229UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:13:23.229UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:13:23.229UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:13:23.394UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50705->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:13:23.403UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50704->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:13:23.406UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50703->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:13:53.421UTC DEBUG a.h.i.e.c.PoolGateway - Shutting down host connection pool immediately
+2017-10-29 19:13:53.423UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50705->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:13:53.423UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50703->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:13:53.423UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50704->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:13:53.423UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:14:30.032UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: TCP idle-timeout encountered on connection to [api.bitfinex.com:443], no bytes passed in the last 1 minute
+2017-10-29 19:14:30.033UTC DEBUG a.s.i.i.TLSActor - closing output
+2017-10-29 19:14:30.047UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: TCP idle-timeout encountered on connection to [api.bitfinex.com:443], no bytes passed in the last 1 minute
+2017-10-29 19:14:30.048UTC DEBUG a.s.i.i.TLSActor - closing output
+2017-10-29 19:14:30.048UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: TCP idle-timeout encountered on connection to [api.bitfinex.com:443], no bytes passed in the last 1 minute
+2017-10-29 19:14:30.049UTC DEBUG a.s.i.i.TLSActor - closing output
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:17:24.291UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:17:24.292UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:17:24.362UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:17:24.364UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:17:24.731UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:17:24.895UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:17:24.895UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:17:24.896UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:17:24.899UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:17:24.906UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:17:24.932UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:17:24.937UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:17:24.937UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:17:24.939UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:17:24.940UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:17:24.940UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:17:24.943UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:17:24.958UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:24.958UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:24.958UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:24.980UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-1458236915]
+2017-10-29 19:17:24.988UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-1873538824]
+2017-10-29 19:17:24.988UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#858538078]
+2017-10-29 19:17:25.036UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.172.181:443]
+2017-10-29 19:17:25.036UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.172.181:443]
+2017-10-29 19:17:25.036UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.172.181:443]
+2017-10-29 19:17:25.054UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:25.055UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:25.055UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 0T19HkyqlKClyT9cDUJUkgHIt32qqGxrcmTXk8YcgXI=
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = q8WMCEZ+ftEbRuGBRzziog110GYrKScMBLJ8zRZD590=
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = SLbTD+j7eo/DTI3Thp8DQxkr3Z9U6xBLg0z0YFwTErc=
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:25.255UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:25.420UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50708->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:17:25.428UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50710->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:17:26.249UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50709->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:17:26.260UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50709->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:26.260UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50710->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:26.260UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50708->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:26.260UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:17:26.265UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.268UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.269UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.269UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.269UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.270UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-759407879]] terminated abruptly
+2017-10-29 19:17:26.275UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29 19:17:48.058UTC INFO  a.a.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+2017-10-29 19:17:48.060UTC DEBUG a.a.CoordinatedShutdown - Performing phase [before-service-unbind] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [service-unbind] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [service-requests-done] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [service-stop] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [before-cluster-shutdown] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [cluster-leave] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [cluster-exiting] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [cluster-exiting-done] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [cluster-shutdown] with [0] tasks
+2017-10-29 19:17:48.064UTC DEBUG a.a.CoordinatedShutdown - Performing phase [before-actor-system-terminate] with [0] tasks
+2017-10-29 19:17:48.065UTC DEBUG a.a.CoordinatedShutdown - Performing phase [actor-system-terminate] with [1] tasks: [terminate-system]
+2017-10-29 19:17:48.081UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:17:54.352UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:17:54.353UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:17:54.424UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:17:54.427UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:17:54.797UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:17:54.955UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:17:54.955UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:17:54.956UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:17:54.959UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:17:54.966UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:17:54.993UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:17:54.999UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:17:54.999UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:17:55.002UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:17:55.003UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:17:55.005UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:17:55.008UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:17:55.021UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:55.021UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:55.021UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:17:55.047UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1566575638]
+2017-10-29 19:17:55.054UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-1717835664]
+2017-10-29 19:17:55.054UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#1063494475]
+2017-10-29 19:17:55.116UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:17:55.116UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:17:55.116UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:17:55.139UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:55.149UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:55.152UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:17:55.343UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = jW8VFEblXA8N621f8uTxQYGqXdmiJeyt+o4MtqjIesM=
+2017-10-29 19:17:55.343UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = BBWGB7lAD2+pqCaeR6f10ZKzUyDBhR7V57o7sCI+pvU=
+2017-10-29 19:17:55.343UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 5wUEGG2SfaH/+DAU1euvRrvaiUyFJhdKJYoXJ5pSPek=
+2017-10-29 19:17:55.344UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:55.344UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:55.344UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:17:55.457UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50715->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:17:55.467UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50714->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:17:56.354UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50713->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:17:56.364UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50714->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:56.364UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50713->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:56.364UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50715->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:17:56.364UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:17:56.368UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.372UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.373UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.373UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.373UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.374UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1651549952]] terminated abruptly
+2017-10-29 19:17:56.380UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:23:29.215UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:23:29.216UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:23:29.281UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:23:29.284UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:23:29.651UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:23:29.812UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:23:29.812UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:23:29.812UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:23:29.815UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:23:29.822UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:23:29.848UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:23:29.852UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:23:29.852UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:23:29.854UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:23:29.855UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:23:29.855UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:23:29.857UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:23:29.876UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:23:29.876UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:23:29.876UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:23:29.895UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1021139906]
+2017-10-29 19:23:29.902UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1783227042]
+2017-10-29 19:23:29.902UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-128748254]
+2017-10-29 19:23:29.998UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:23:29.998UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:23:29.999UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:23:30.022UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:23:30.022UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:23:30.023UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:23:30.241UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = oX+WA1TD8caRWlvWPPLCdHuuLUOtFWo3kBtEUVv8sdM=
+2017-10-29 19:23:30.241UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 6n/RbZyZi2XAk9jwRBug/GTr6WE944n7cjv1+KAebIQ=
+2017-10-29 19:23:30.241UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:23:30.241UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:23:30.243UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = M2lGVgkZJh3wHUZoQ7lAvOgkevX5QgTaAh/qH1vhHBQ=
+2017-10-29 19:23:30.243UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:23:30.372UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50771->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:23:30.426UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50772->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:23:30.529UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50770->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:23:30.540UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50770->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:23:30.540UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50772->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:23:30.540UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50771->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:23:30.540UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:23:30.544UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.548UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.549UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.549UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.550UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.550UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2058692397]] terminated abruptly
+2017-10-29 19:23:30.556UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:39:22.055UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:39:22.056UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:39:22.123UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:39:22.126UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:39:22.493UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:39:22.658UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:39:22.658UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:39:22.658UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:39:22.661UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:39:22.668UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:39:22.698UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:39:22.703UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:39:22.704UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:39:22.707UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:39:22.707UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:39:22.707UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:39:22.711UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:39:22.725UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:39:22.725UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:39:22.725UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:39:22.750UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#189202237]
+2017-10-29 19:39:22.756UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1277298937]
+2017-10-29 19:39:22.756UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#316596440]
+2017-10-29 19:39:23.067UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:39:23.067UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:39:23.067UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:39:23.104UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:39:23.105UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:39:23.115UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:39:23.249UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = lGPQCm4UiDWWMH2l6X0whweTgw4hbNKaur2vxIqG9LM=
+2017-10-29 19:39:23.249UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 8IRLtD5gfWN/QUOy9cEDqRHGQBCEJwzPbt0PTRlVIy0=
+2017-10-29 19:39:23.249UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = TrSburlyqNb+bNWbyBUILOPmo8AoMWJl+fEZjMf5l0E=
+2017-10-29 19:39:23.250UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:39:23.250UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:39:23.250UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:39:23.369UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50867->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.385UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50866->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.388UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50868->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.398UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50867->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.398UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50866->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.398UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50868->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:39:23.400UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 19:39:23.400UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 19:39:23.400UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 19:39:23.405UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:50866->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:39:23.405UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:50867->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:39:23.405UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:50868->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:39:23.405UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:39:23.410UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.416UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.416UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.417UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.417UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.417UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-2041262100]] terminated abruptly
+2017-10-29 19:39:23.427UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:45:43.558UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:45:43.559UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:45:43.625UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:45:43.628UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:45:43.998UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:45:44.164UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:45:44.164UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:45:44.164UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:45:44.168UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:45:44.174UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:45:44.201UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:45:44.206UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:45:44.206UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:45:44.209UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:45:44.210UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:45:44.210UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:45:44.213UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:45:44.230UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:45:44.230UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:45:44.230UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:45:44.257UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#1214525666]
+2017-10-29 19:45:44.265UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-939175234]
+2017-10-29 19:45:44.266UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-821183901]
+2017-10-29 19:45:44.338UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:45:44.338UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:45:44.338UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:45:44.374UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:45:44.375UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:45:44.396UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:45:44.559UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = cClGuPOcEsOoDJeOsNoA9QDFSUQXjdEfyF0oGsONvt4=
+2017-10-29 19:45:44.559UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 9R2lhiB63JJRhqcBRzAT3i1kdJ+JWGHZ1pPayUsO3yI=
+2017-10-29 19:45:44.560UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:45:44.560UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:45:44.563UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = I3YghrQKxMEJhB8LgPjZVS1qtSzj6OWYTC1XZFC1pFI=
+2017-10-29 19:45:44.563UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:45:44.653UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51035->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:45:44.669UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51036->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:45:45.466UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51037->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:45:45.475UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51036->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:45:45.475UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51035->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:45:45.475UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51037->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:45:45.476UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 19:45:45.476UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 19:45:45.476UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 19:45:45.479UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51035->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:45:45.479UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51036->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:45:45.479UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51037->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:45:45.479UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Slot was stopped
+2017-10-29 19:45:45.483UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.486UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.487UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.487UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.487UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.488UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-951166341]] terminated abruptly
+2017-10-29 19:45:45.493UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:47:29.499UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:47:29.500UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:47:29.571UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:47:29.573UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:47:29.929UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:47:30.086UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:47:30.086UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:47:30.086UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:47:30.086UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 19:47:30.089UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:47:30.096UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:47:30.125UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:47:30.130UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:47:30.131UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:47:30.133UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:47:30.134UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:47:30.134UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:47:30.138UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:47:30.138UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 19:47:30.138UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 19:47:30.141UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 19:47:30.154UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:47:30.154UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:47:30.154UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:47:30.154UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:47:30.179UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#767063199]
+2017-10-29 19:47:30.189UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1299649866]
+2017-10-29 19:47:30.189UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-898647488]
+2017-10-29 19:47:30.189UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#1056086736]
+2017-10-29 19:47:30.250UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:47:30.250UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:47:30.250UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:47:30.250UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:47:30.278UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:47:30.278UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:47:30.284UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:47:30.285UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = gz4ym1HbmSuD+/kVtfR+hzV1JBTObY7xvqgPi/P2AN8=
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 1JYWbU6o9+6bcni12AnHKjhLjf6p1cRSBnG/ijsZ3K0=
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Gh5YkgoeasGSsUcFIL5Vv4OqOhDDpaUEcPCs6fxmlOs=
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = vP4GsonSzakhWaO4jjbXEUG8ZJMz7uYWOwqguappBIs=
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:47:30.446UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:47:30.576UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51060->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:47:30.681UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51062->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 19:47:31.025UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51061->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:47:31.028UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51059->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:47:31.035UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51060->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:47:31.035UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51061->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51062->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51059->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 19:47:31.036UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 19:47:31.043UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.046UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.047UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.047UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.047UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.047UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.048UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51061->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:47:31.048UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51059->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:47:31.048UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51060->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:47:31.048UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51062->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:47:31.048UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.048UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#750536655]] terminated abruptly
+2017-10-29 19:47:31.053UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 19:59:44.193UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 19:59:44.194UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 19:59:44.260UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 19:59:44.263UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 19:59:44.636UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 19:59:44.800UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 19:59:44.800UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 19:59:44.801UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 19:59:44.801UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 19:59:44.804UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 19:59:44.812UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 19:59:44.838UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 19:59:44.844UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 19:59:44.844UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 19:59:44.847UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 19:59:44.848UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 19:59:44.849UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 19:59:44.851UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 19:59:44.853UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 19:59:44.853UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 19:59:44.855UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 19:59:44.872UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:59:44.872UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:59:44.872UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:59:44.872UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 19:59:44.898UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#436347859]
+2017-10-29 19:59:44.905UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-1128942680]
+2017-10-29 19:59:44.906UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#-767535514]
+2017-10-29 19:59:44.906UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#1669478101]
+2017-10-29 19:59:44.953UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:59:44.953UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:59:44.953UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:59:44.953UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 19:59:44.974UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:59:44.975UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:59:44.975UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:59:44.976UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 19:59:45.138UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = CRUpOpXrNd9zD6KYdxz4f4OiRUQhQ566Le4DDYGCJdo=
+2017-10-29 19:59:45.138UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Z5VYfd/fhr4HJFVnnBGLARTT/5bOk5VdyNWJxivLC1E=
+2017-10-29 19:59:45.138UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 7Ao7CYKyvjIRHUK/geKOvi7tQnqx27T5S2Wck7U20fI=
+2017-10-29 19:59:45.138UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = YoKOfQck6v1gznhASdssOChoqKnHpk3TUtaloF0Qw6Y=
+2017-10-29 19:59:45.139UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:59:45.139UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:59:45.139UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:59:45.139UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 19:59:45.314UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51121->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 19:59:45.341UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51122->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:59:45.435UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51124->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:59:50.650UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51123->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:59:50.658UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51122->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 19:59:50.658UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51124->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 19:59:50.658UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51121->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 19:59:50.659UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 19:59:50.659UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 19:59:50.659UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 19:59:50.661UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51123->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 19:59:50.665UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.669UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.669UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51123->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:59:50.669UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51124->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:59:50.669UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51122->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:59:50.669UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51121->api.bitfinex.com:443> Slot was stopped
+2017-10-29 19:59:50.670UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.670UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.670UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.670UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.671UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.671UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#951391838]] terminated abruptly
+2017-10-29 19:59:50.675UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:03:28.937UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:03:28.938UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:03:29.003UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 20:03:29.006UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 20:03:29.375UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 20:03:29.544UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 20:03:29.544UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 20:03:29.544UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 20:03:29.544UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 20:03:29.548UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 20:03:29.555UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 20:03:29.582UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 20:03:29.587UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 20:03:29.587UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 20:03:29.590UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 20:03:29.591UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 20:03:29.592UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 20:03:29.594UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 20:03:29.595UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 20:03:29.595UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 20:03:29.598UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 20:03:29.615UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:03:29.615UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:03:29.615UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:03:29.615UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:03:29.642UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-17239465]
+2017-10-29 20:03:29.648UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1253353180]
+2017-10-29 20:03:29.648UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#1207335936]
+2017-10-29 20:03:29.648UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#889971672]
+2017-10-29 20:03:29.694UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:03:29.694UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:03:29.694UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:03:29.695UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:03:29.716UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:03:29.717UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:03:29.717UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:03:29.718UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:03:29.869UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = qUHKPU8ESYO4xBcbUB0b7a7Cv5t5bcXwOcpzbeYKYBk=
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = HA7UzTE4wJ3SrXukHlGXJanpiwhZzRRDV0P+Nt2OVws=
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:03:29.869UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = AeygPllvJ9a+Zkdu47/hOJn3I3YuFbmZRhAP7DZl4BM=
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Ljlc4nRpSJxiT/5vwKAthfzCyvjar1oCc+BpBeRb2EA=
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:03:29.870UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:03:30.001UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51157->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:03:30.047UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51155->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.570UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51158->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.573UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51156->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.580UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51155->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.580UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51158->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51157->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51156->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 20:03:30.581UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 20:03:30.587UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.590UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.592UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51155->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:03:30.592UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51156->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:03:30.592UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51158->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:03:30.592UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51157->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:03:30.592UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.593UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.593UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.593UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.593UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.593UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#1790275853]] terminated abruptly
+2017-10-29 20:03:30.598UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:07:32.484UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:07:32.485UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:07:32.573UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 20:07:32.577UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 20:07:32.997UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 20:07:33.165UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 20:07:33.165UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 20:07:33.165UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 20:07:33.165UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 20:07:33.169UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 20:07:33.176UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 20:07:33.210UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 20:07:33.216UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 20:07:33.216UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 20:07:33.220UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 20:07:33.222UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 20:07:33.222UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 20:07:33.227UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 20:07:33.229UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 20:07:33.229UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 20:07:33.234UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 20:07:33.240UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:07:33.240UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:07:33.240UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:07:33.241UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:07:33.267UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-1173062033]
+2017-10-29 20:07:33.273UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1357609343]
+2017-10-29 20:07:33.273UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1525716282]
+2017-10-29 20:07:33.273UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#1057220153]
+2017-10-29 20:07:33.320UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:07:33.320UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:07:33.320UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:07:33.320UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:07:33.340UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:07:33.341UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:07:33.341UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:07:33.342UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:07:33.499UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = CnnXbDuOMJOG9vtHcLkxG04MhIGVmDcbSXd3eHQVbdk=
+2017-10-29 20:07:33.500UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = DR1drx5pJW+vs5lLcFfd6FaNXRZUA5Nkgcuc0D27Dhk=
+2017-10-29 20:07:33.500UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:07:33.500UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:07:33.501UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = yvQ6uHPcctyTtacbcJkZVLWFqH2zGj+P9ruS+SaMmlo=
+2017-10-29 20:07:33.501UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = JGPbBm1/myI+fYLP+xUltDyLnOMu5mQZpV+78kMedEA=
+2017-10-29 20:07:33.501UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:07:33.501UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:07:33.641UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51209->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:07:33.652UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51211->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:07:33.655UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51210->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:07:34.804UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51212->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:07:34.814UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51210->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:07:34.814UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51212->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:07:34.814UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51209->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:07:34.814UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51211->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:07:34.815UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 20:07:34.815UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 20:07:34.815UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 20:07:34.815UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 20:07:34.824UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.828UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.830UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51211->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:07:34.830UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51210->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:07:34.830UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51209->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:07:34.831UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51212->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:07:34.831UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.831UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.832UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.832UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.832UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.833UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1409942361]] terminated abruptly
+2017-10-29 20:07:34.839UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:08:52.690UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:08:52.691UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:08:52.757UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 20:08:52.760UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 20:08:53.132UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 20:08:53.297UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 20:08:53.297UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 20:08:53.297UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 20:08:53.297UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 20:08:53.302UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 20:08:53.309UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 20:08:53.336UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 20:08:53.341UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 20:08:53.341UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 20:08:53.344UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 20:08:53.344UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 20:08:53.345UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 20:08:53.348UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 20:08:53.349UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 20:08:53.350UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 20:08:53.355UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 20:08:53.367UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:08:53.367UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:08:53.367UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:08:53.367UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:08:53.389UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-1551277823]
+2017-10-29 20:08:53.395UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-513415216]
+2017-10-29 20:08:53.396UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1747500716]
+2017-10-29 20:08:53.396UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#-1004530531]
+2017-10-29 20:08:53.439UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:08:53.439UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:08:53.439UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:08:53.439UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:08:53.461UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:08:53.462UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:08:53.462UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:08:53.463UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:08:53.610UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Q4IFw7NoS11X9Ubca3C3q5EDn197u80SB4KZ0+XGRks=
+2017-10-29 20:08:53.610UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = OxjYad51fpePrBkZS9qcxOPTyzGtvKYE+gP5XDz8+Uk=
+2017-10-29 20:08:53.610UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = mQ3wxnJQOFxMMNuUIHOA6JKTd+rBifeswunrSDlPslY=
+2017-10-29 20:08:53.610UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = ph8ug7WQ0qwP/WKA0rwTXJrgRjRpDwuoGaOzpZaNhJs=
+2017-10-29 20:08:53.611UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:08:53.611UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:08:53.611UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:08:53.611UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:08:53.728UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51221->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.739UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51219->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.741UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51220->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.774UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51222->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:08:53.782UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51220->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.782UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51221->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.782UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51219->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:08:53.783UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 20:08:53.783UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 20:08:53.783UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51222->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:08:53.783UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 20:08:53.783UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 20:08:53.789UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.793UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.795UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51220->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:08:53.795UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51219->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:08:53.795UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51221->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:08:53.795UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51222->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:08:53.795UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.795UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.796UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.796UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.796UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.796UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-1657402104]] terminated abruptly
+2017-10-29 20:08:53.801UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:11:14.805UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:11:14.806UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:11:14.890UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 20:11:14.892UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 20:11:15.254UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 20:11:15.421UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 20:11:15.422UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 20:11:15.422UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 20:11:15.422UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 20:11:15.425UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 20:11:15.432UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 20:11:15.461UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 20:11:15.467UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 20:11:15.467UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 20:11:15.470UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 20:11:15.471UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 20:11:15.471UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 20:11:15.473UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 20:11:15.476UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 20:11:15.477UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 20:11:15.480UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 20:11:15.489UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:11:15.489UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:11:15.489UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:11:15.489UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:11:15.515UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#-1314035625]
+2017-10-29 20:11:15.522UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#-723020101]
+2017-10-29 20:11:15.522UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#-551077479]
+2017-10-29 20:11:15.522UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#40471102]
+2017-10-29 20:11:15.570UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:11:15.570UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:11:15.570UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:11:15.570UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:11:15.591UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:11:15.592UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:11:15.592UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:11:15.593UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:11:15.774UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Jt+MUxJNtprnrDXyHDhrg8EtcwcDxCWYHDlyXqzAEL4=
+2017-10-29 20:11:15.774UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = uAdHP8KuvrdZvQFnYKq/ryMhpRy3dspjj73sgaCruxk=
+2017-10-29 20:11:15.774UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = 6pYL3ILxy2gq9ojmavIzUli6KMd8KEFW8c+qPFAr0vs=
+2017-10-29 20:11:15.775UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = lbeKSuOyhycATyoqi/Jj42prOyRle7Wo/4cozRJyM2U=
+2017-10-29 20:11:15.775UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:11:15.775UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:11:15.775UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:11:15.775UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:11:15.893UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51225->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.901UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51228->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:11:15.903UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51227->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.931UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51226->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.939UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51225->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.939UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51226->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.939UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51227->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:11:15.939UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51228->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:11:15.940UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 20:11:15.940UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 20:11:15.940UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 20:11:15.940UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 20:11:15.946UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.950UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.951UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51225->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:11:15.951UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51227->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:11:15.951UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51226->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:11:15.951UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51228->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:11:15.952UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.952UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.952UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.952UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.952UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.953UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#163015059]] terminated abruptly
+2017-10-29 20:11:15.958UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:14:18.022UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:14:18.023UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:14:18.091UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 20:14:18.094UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 20:14:18.472UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 20:14:18.633UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 20:14:18.633UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 20:14:18.633UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 20:14:18.633UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 20:14:18.637UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 20:14:18.644UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 20:14:18.672UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 20:14:18.677UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 20:14:18.677UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 20:14:18.679UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 20:14:18.680UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 20:14:18.680UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 20:14:18.682UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 20:14:18.683UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 20:14:18.683UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 20:14:18.686UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 20:14:18.705UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:14:18.706UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:14:18.706UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:14:18.706UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 20:14:18.733UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#-2059611518]
+2017-10-29 20:14:18.739UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1532723651]
+2017-10-29 20:14:18.739UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1064435336]
+2017-10-29 20:14:18.739UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#292370358]
+2017-10-29 20:14:18.804UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:14:18.804UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:14:18.804UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:14:18.804UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.173.181:443]
+2017-10-29 20:14:18.834UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:14:18.835UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:14:18.848UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:14:18.860UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = YXKvAmQqX6jKVgq9tD0C2jUQN1IQDJ2dj/0SMpvaQzQ=
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = Ut0c863Fur2ciI4pAnpBL7PtEFiZIs0tMjYAufS07Qk=
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = NdetOKiWYuuMitZPsFTEMLmv5OOv+M6sPOmkO+yDCyA=
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = A2ytbU998sRGIbkHok8eKjvl5Od0xucPJocfFvs7XlY=
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:14:19.054UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 20:14:19.173UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51255->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.183UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51253->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.187UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51252->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.301UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51254->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:14:19.312UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51255->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.312UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51254->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 20:14:19.312UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51252->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.312UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51253->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 20:14:19.313UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 20:14:19.313UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 20:14:19.313UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 20:14:19.313UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 20:14:19.322UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.327UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.328UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.329UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.329UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.329UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.330UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.330UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#122449384]] terminated abruptly
+2017-10-29 20:14:19.330UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:51253->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:14:19.330UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:51252->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:14:19.331UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:51255->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:14:19.331UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:51254->api.bitfinex.com:443> Slot was stopped
+2017-10-29 20:14:19.340UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 20:33:19.684UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 20:33:19.685UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 20:33:19.866UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 22:36:20.966UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 22:36:20.967UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 1
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 2
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 3
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 4
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 5
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 6
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 7
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 8
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 9
+2017-10-29 22:36:21.103UTC DEBUG a.s.Materializer - [logFlow] Element: 10
+2017-10-29 22:36:21.104UTC DEBUG a.s.Materializer - [logFlow] Upstream finished.
+2017-10-29 22:36:21.119UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 22:39:38.538UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 22:39:38.539UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 22:39:38.579UTC INFO  s.LogFlow$ - Sample log entry from LogFlow
+2017-10-29 22:39:38.667UTC DEBUG a.s.Materializer - [logFlow] Element: 1
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 2
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 3
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 4
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 5
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 6
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 7
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 8
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 9
+2017-10-29 22:39:38.668UTC DEBUG a.s.Materializer - [logFlow] Element: 10
+2017-10-29 22:39:38.669UTC DEBUG a.s.Materializer - [logFlow] Upstream finished.
+2017-10-29 22:39:38.685UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 22:40:01.447UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 22:40:01.448UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 22:40:01.489UTC INFO  s.LogFlow$ - Sample log entry from LogFlow
+2017-10-29 22:40:01.578UTC DEBUG a.s.Materializer - [logFlow] Element: 1
+2017-10-29 22:40:01.579UTC DEBUG a.s.Materializer - [logFlow] Element: 2
+2017-10-29 22:40:01.579UTC DEBUG a.s.Materializer - [logFlow] Element: 3
+2017-10-29 22:40:01.579UTC DEBUG a.s.Materializer - [logFlow] Element: 4
+2017-10-29 22:40:01.579UTC DEBUG a.s.Materializer - [logFlow] Element: 5
+2017-10-29 22:40:01.580UTC DEBUG a.s.Materializer - [logFlow] Element: 6
+2017-10-29 22:40:01.580UTC DEBUG a.s.Materializer - [logFlow] Element: 7
+2017-10-29 22:40:01.580UTC DEBUG a.s.Materializer - [logFlow] Element: 8
+2017-10-29 22:40:01.580UTC DEBUG a.s.Materializer - [logFlow] Element: 9
+2017-10-29 22:40:01.580UTC DEBUG a.s.Materializer - [logFlow] Element: 10
+2017-10-29 22:40:01.581UTC DEBUG a.s.Materializer - [logFlow] Upstream finished.
+2017-10-29 22:40:01.602UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started
+2017-10-29  INFO  a.e.s.Slf4jLogger - Slf4jLogger started
+2017-10-29 22:48:19.736UTC DEBUG a.e.EventStream - logger log1-Slf4jLogger started
+2017-10-29 22:48:19.737UTC DEBUG a.e.EventStream - Default Loggers started
+2017-10-29 22:48:19.803UTC DEBUG c.t.s.a.AkkaSSLConfig - Initializing AkkaSSLConfig extension...
+2017-10-29 22:48:19.806UTC DEBUG c.t.s.a.AkkaSSLConfig - buildHostnameVerifier: created hostname verifier: com.typesafe.sslconfig.ssl.DefaultHostnameVerifier@446293d
+2017-10-29 22:48:20.187UTC DEBUG a.h.i.e.c.PoolGateway - (Re-)starting host connection pool to api.bitfinex.com:443
+2017-10-29 22:48:20.354UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 1 request after enqueuing GET /v1/stats/btcusd Empty
+2017-10-29 22:48:20.355UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 2 request after enqueuing GET /v1/stats/ethusd Empty
+2017-10-29 22:48:20.355UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 3 request after enqueuing GET /v1/stats/omgusd Empty
+2017-10-29 22:48:20.355UTC DEBUG a.h.i.e.c.PoolGateway - InputBuffer (max-open-requests = 32) now filled with 4 request after enqueuing GET /v1/stats/xxxusd Empty
+2017-10-29 22:48:20.359UTC DEBUG a.h.i.e.c.PoolGateway - [0] Unconnected -> Loaded(1)
+2017-10-29 22:48:20.367UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> Establishing connection...
+2017-10-29 22:48:20.395UTC DEBUG a.h.i.e.c.PoolGateway - [0] <unconnected> pushing request to connection: GET /v1/stats/btcusd Empty
+2017-10-29 22:48:20.401UTC DEBUG a.h.i.e.c.PoolGateway - [1] Unconnected -> Loaded(1)
+2017-10-29 22:48:20.401UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> Establishing connection...
+2017-10-29 22:48:20.406UTC DEBUG a.h.i.e.c.PoolGateway - [1] <unconnected> pushing request to connection: GET /v1/stats/ethusd Empty
+2017-10-29 22:48:20.407UTC DEBUG a.h.i.e.c.PoolGateway - [2] Unconnected -> Loaded(1)
+2017-10-29 22:48:20.407UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> Establishing connection...
+2017-10-29 22:48:20.410UTC DEBUG a.h.i.e.c.PoolGateway - [2] <unconnected> pushing request to connection: GET /v1/stats/omgusd Empty
+2017-10-29 22:48:20.413UTC DEBUG a.h.i.e.c.PoolGateway - [3] Unconnected -> Loaded(1)
+2017-10-29 22:48:20.413UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> Establishing connection...
+2017-10-29 22:48:20.415UTC DEBUG a.h.i.e.c.PoolGateway - [3] <unconnected> pushing request to connection: GET /v1/stats/xxxusd Empty
+2017-10-29 22:48:20.422UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 22:48:20.422UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 22:48:20.423UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 22:48:20.423UTC DEBUG a.i.TcpOutgoingConnection - Resolving api.bitfinex.com before connecting
+2017-10-29 22:48:20.454UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/2#1014530430]
+2017-10-29 22:48:20.464UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/1#-1565292399]
+2017-10-29 22:48:20.464UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/0#397805065]
+2017-10-29 22:48:20.464UTC DEBUG a.i.SimpleDnsManager - Resolution request for api.bitfinex.com from Actor[akka://default/system/IO-TCP/selectors/$a/3#376161916]
+2017-10-29 22:48:20.513UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 22:48:20.513UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 22:48:20.513UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 22:48:20.513UTC DEBUG a.i.TcpOutgoingConnection - Attempting connection to [api.bitfinex.com/104.16.175.181:443]
+2017-10-29 22:48:20.535UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 22:48:20.536UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 22:48:20.536UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 22:48:20.537UTC DEBUG a.i.TcpOutgoingConnection - Connection established to [api.bitfinex.com:443]
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = +HsFuv0cHaTFYv/0lF+QBAvWnn00PtdDEC9K9ZxHPcY=
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = JlWr4xV3QiDy88qNia9Sf4+tkObQ4g3K3i7vmYkT5tY=
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = UTMljN6Gi4OdCQYildZGAXzpz9lBQAs/ZGuzCfpzj0Y=
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: hostname = api.bitfinex.com, sessionId (base64) = W8Bnaiv2OPeo80pfx2yEIPsT9weNpTKUrj+GgNQhmS8=
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 22:48:20.724UTC DEBUG c.t.s.s.DefaultHostnameVerifier - verify: returning true
+2017-10-29 22:48:20.841UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:52294->api.bitfinex.com:443> Received response: GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.851UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:52295->api.bitfinex.com:443> Received response: GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.903UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:52296->api.bitfinex.com:443> Received response: GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.950UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:52297->api.bitfinex.com:443> Received response: GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 22:48:20.958UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:52294->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/ethusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.959UTC DEBUG a.h.i.e.c.PoolGateway - [1] Loaded(1) -> Idle
+2017-10-29 22:48:20.961UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:52295->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/btcusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.962UTC DEBUG a.h.i.e.c.PoolGateway - [0] Loaded(1) -> Idle
+2017-10-29 22:48:20.962UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:52296->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/omgusd Empty -> 200 OK Chunked
+2017-10-29 22:48:20.963UTC DEBUG a.h.i.e.c.PoolGateway - [2] Loaded(1) -> Idle
+2017-10-29 22:48:20.963UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:52297->api.bitfinex.com:443> Finished reading response entity for GET /v1/stats/xxxusd Empty -> 400 Bad Request Chunked
+2017-10-29 22:48:20.963UTC DEBUG a.h.i.e.c.PoolGateway - [3] Loaded(1) -> Idle
+2017-10-29 22:48:20.972UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.976UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.983UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.983UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.983UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.984UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.984UTC DEBUG a.a.RepointableActorRef - Aborting tcp connection to api.bitfinex.com:443 because of upstream failure: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.984UTC ERROR a.a.ActorSystemImpl - Outgoing request stream error
+akka.stream.AbruptTerminationException: Processor actor [Actor[akka://default/user/StreamSupervisor-1/flow-1-0-mergePreferred#-343563986]] terminated abruptly
+2017-10-29 22:48:20.984UTC DEBUG a.h.i.e.c.PoolGateway - [0] </192.168.2.3:52295->api.bitfinex.com:443> Slot was stopped
+2017-10-29 22:48:20.984UTC DEBUG a.h.i.e.c.PoolGateway - [1] </192.168.2.3:52294->api.bitfinex.com:443> Slot was stopped
+2017-10-29 22:48:20.984UTC DEBUG a.h.i.e.c.PoolGateway - [2] </192.168.2.3:52296->api.bitfinex.com:443> Slot was stopped
+2017-10-29 22:48:20.985UTC DEBUG a.h.i.e.c.PoolGateway - [3] </192.168.2.3:52297->api.bitfinex.com:443> Slot was stopped
+2017-10-29 22:48:20.991UTC DEBUG a.e.EventStream - shutting down: StandardOutLogger started

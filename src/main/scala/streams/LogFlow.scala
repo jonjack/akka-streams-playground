@@ -17,8 +17,16 @@ object LogFlow extends App {
   implicit val materializer = ActorMaterializer()
 
   val log: LoggingAdapter = Logging.getLogger(system, this)
-  log.debug("LOGGED BY LOG")
-  log.info("LOGGED BY LOG")
+
+  // will look for logger configured with name "success"
+  val logToSuccessLog: LoggingAdapter = Logging.getLogger(system, "success")
+
+  // will look for logger configured with name "failure"
+  val logToFailureLog: LoggingAdapter = Logging.getLogger(system, "failure")
+
+  log.info("Sample log entry from LogFlow")
+  logToSuccessLog.info("Sample log entry from LogFlow")
+  logToFailureLog.info("Sample log entry from LogFlow")
 
 //  val logger: LoggingAdapter = Logging.getLogger(system, ConfigFactory.load())
 //  logger.info("LOGGED BY LOGGER")
