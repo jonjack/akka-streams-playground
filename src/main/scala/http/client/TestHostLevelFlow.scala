@@ -28,7 +28,6 @@ object TestHostLevelFlow extends App {
   val logsuccess: LoggingAdapter = Logging.getLogger(system, "success")
   val logfail: LoggingAdapter = Logging.getLogger(system, "failure")
 
-  log
 
   val conn = Http().cachedHostConnectionPoolHttps[String]("api.bitfinex.com", 443)
   val symbols = List("btcusd", "ethusd", "omgusd", "xxxusd")

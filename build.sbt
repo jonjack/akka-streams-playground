@@ -16,8 +16,8 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-testkit"    % akkaHttpVersion,
     "org.scalatest"     %% "scalatest"            % scalaTestVersion    % "test",
-    "com.typesafe.akka" %%  "akka-slf4j"          % "2.5.6",
-    "ch.qos.logback"    % "logback-classic"       % "1.2.3"
+    "com.typesafe.akka" %% "akka-slf4j"           % "2.5.6",
+    "ch.qos.logback"    %  "logback-classic"      % "1.2.3"
   )
 }
 
