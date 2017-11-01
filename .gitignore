@@ -17,3 +17,7 @@ project/target/
 
 #-------- OSX --------
 .DS_Store
+
+
+#--------App----------
+logs/
