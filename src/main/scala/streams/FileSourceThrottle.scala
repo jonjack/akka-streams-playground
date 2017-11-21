@@ -30,7 +30,7 @@ object FileSourceThrottle extends App {
     throttle(1, 1.second, 1, ThrottleMode.shaping).
     map(bs => bs.utf8String)
 
-  val sink = Sink.foreach(println)
+  val sink: Sink[Any, Future[Done]] = Sink.foreach(println)
 
   /*
    * The secret to getting this to work was to use runWith(sink) rather than to(sink).

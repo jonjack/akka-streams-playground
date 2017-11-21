@@ -45,9 +45,9 @@ object HostFlowBitfinexExampleWithMarshalling extends App {
     implicit val statsFormat: JsonFormat[Stats] = jsonFormat1(Stats)
   }
 
-  trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
-    implicit val statFormat = jsonFormat2(Stat)
-  }
+//  trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
+//    implicit val statFormat = jsonFormat2(Stat)
+//  }
 
   val log: LoggingAdapter = Logging.getLogger(system, this)
   val logsuccess: LoggingAdapter = Logging.getLogger(system, "success")
